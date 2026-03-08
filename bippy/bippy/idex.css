@@ -1,0 +1,69 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contactForm {
+            width: 500px;
+            ;
+            display: flex;
+            background: rgb(248, 247, 247);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+
+        }
+
+        textarea {
+            width: 500px;
+            height: 100px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            border-radius: 10px;
+            background-color: brown;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 600px;
+
+        }

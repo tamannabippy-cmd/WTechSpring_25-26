@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bippy</title>
+</head>
+
+<body>
+        <h2>
+            Contact Form
+        </h2>
+        <div class="container">
+            <form action="">
+                <table>
+                    <!-- tr= table row -->
+                    <tr>
+                        <td>
+                            First Name:
+                        </td>
+                        <td>
+                            Last Name:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="firstName" id="firstName">
+                        </td>
+                        <td>
+                            <input type="text" name="lastName" id="lastName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            Phone Number:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="email" id="email">
+                        </td>
+                        <td>
+                            <input type="tel" name="phone" id="phone">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            What is your message?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="message" id="message"></textarea>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <button type="submit">Submit</button>
+            </form>
+            
+        </div>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            background: rgba(231, 231, 231, 0.404);
+            padding: 5px;
+            width: 600px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        textarea {
+            width: 90%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 5px 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</body>
+
+</html>
+
+
+<!-- Inline CSS -->
+<!-- Internal CSS -->
+<!-- External CSS -->
