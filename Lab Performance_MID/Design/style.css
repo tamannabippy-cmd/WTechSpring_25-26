@@ -1,0 +1,52 @@
+body{
+font-family: Arial, sans-serif;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#333;
+color:white;
+padding:20px;
+}
+
+.container{
+margin-top:40px;
+
+}
+
+fieldset{
+width:300px;
+margin:0 auto;
+padding:20px;
+border:2px solid black;
+border-radius: 10px;
+text-align: left;
+}
+
+legend{
+font-weight:bold;
+text-align: left;
+}
+
+input{
+padding:8px;
+width:250px;
+border-radius: 5px;
+border:1px solid #ccc;
+
+}
+
+footer{
+background:#333;
+color:white;
+padding:10px;
+position:fixed;
+bottom:0;
+width:100%;
+}
+label{
+display:block;
+margin-bottom:10px;
+font-weight: bold;
+}
