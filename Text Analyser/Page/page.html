@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="../Design/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <label for="userText">Enter Your Text:</label>
+      <textarea name="text" id="userText"></textarea>
+    </div>
+    <p id="Details"></p>
+    <button type="button" onclick="validateText()">Analyze Text</button>
+    <button type="button" onclick="reverseText()">Reverse Text</button>
+
+    <br />
+    <br />
+
+    <label for="reversedOutput">Reversed Text:</label>
+    <div id="reversedOutput" class="output-box"></div>
+
+    <script src="../JS/validation.js"></script>
+  </body>
+</html>
